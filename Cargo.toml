@@ -1,0 +1,16 @@
+[package]
+name = "moon-windows-symbols"
+version = "0.1.0"
+edition = "2021"
+authors = ["zanpocc@gmail.com"]
+description = "Get windows kernel using windows DbgHelp API"
+license = "MIT"
+
+[dependencies]
+lazy_static = "1.5.0"
+windows = { version = "0.58.0", features = [
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Threading",
+    "Win32_System_ProcessStatus",
+    "Win32_Foundation",
+] }
