@@ -6,6 +6,9 @@
 cargo add moon-windows-symbol
 ~~~
 
+### Dependences
+symsrv.dll and dbghelp.dll
+
 ### Simple exampel
 ~~~rust
 pub fn main(){
